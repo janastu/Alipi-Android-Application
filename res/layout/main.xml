@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:screenOrientation="portrait"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff">
+<RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:background="#696969"
+        android:gravity="center_vertical"
+        android:padding="10dp">
+       
+        <TextView 
+            android:text="@string/home"
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerInParent="true"
+            android:textColor="#ffffff"/>
+         <ImageButton 
+            android:background="@drawable/fav"
+            android:id="@+id/fav"
+            android:contentDescription="@string/desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            />
+        <Button
+            android:id="@+id/ren"
+            android:contentDescription="@string/desc"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentRight="true"
+            android:padding="5dp"
+            android:background="@drawable/buttonren"/>
+        <Button
+			android:id="@+id/buttonaudio"
+			android:layout_width="45dp"
+			android:layout_height="45dp"
+			android:background="@drawable/button"
+			android:visibility="gone"
+			android:layout_toLeftOf="@id/ren"
+			android:padding="15dp"/>
+        
+    </RelativeLayout>
+	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/rl"
+    android:layout_width="fill_parent"
+    android:screenOrientation="portrait"
+    android:layout_height="wrap_content">
+		<AutoCompleteTextView
+			android:id="@+id/editurl"
+			android:layout_width="270dip"
+			android:layout_height="50dp"
+			android:singleLine="true"
+			android:imeOptions="actionGo"
+			android:textColor="#000000"
+			android:textColorHint="#000000"/>
+		<Button 
+			android:id="@+id/buttongo"
+			android:layout_width="50dp"
+			android:layout_height="50dp"
+			android:text = "@string/go"
+			android:layout_toRightOf="@id/editurl"/>
+		
+	</RelativeLayout>
+	<ProgressBar
+     	style="?android:attr/progressBarStyleHorizontal"
+     	android:id="@+id/progressbar"
+     	android:layout_width="fill_parent"
+		android:layout_height="5dp"
+     	android:layout_marginRight="5dp"
+     	android:max="100"
+     	android:background="#228b22"/>
+	<WebView  
+    	android:id="@+id/webview"
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"/>
+</LinearLayout>

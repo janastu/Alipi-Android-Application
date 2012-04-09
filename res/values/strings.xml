@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World,webView</string>
+    <string name="app_name">Alipi</string>
+     <string name="home">Home</string>
+    <string name="desc">Click to go Home to screen</string>
+    <string name="go">GO</string>
+    <string name="audio">Audio Present</string>
+</resources>
