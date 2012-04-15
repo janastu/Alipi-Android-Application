@@ -2,16 +2,16 @@ Requirements:
 
 	Android(> 2.2,froyo)
 
-Installation:
+Installation & Usage guidelines:
 
-	1:Download the alipi.apk file from this link https://github.com/rakendu-droid/Alipi-Android-tool/downloads
+	1:Download the alipi.apk file from this link hhttps://play.google.com/store/search?q=alipi&c=apps
 
-	2:Change the setting in the phone to allow installation from "unknown sources"(settings->applications->unknown sources)
+	3:Click on the alipi.apk follow the instructions to install the application
+
+	4:Start the application and enter a url which has re-narration(a11y.in/a11y_dw/). 
 	
-	3:Click on the alipi.apk in the sd card and follow the instructions to install the application.
-
-	4:Start the application and enter a url which has re-narration(a11y.in/a11y_fs/). 
-	
-	5:After the web-page loads,press the menu button and choose "renarrations". 
+	5:After the web-page loads,press the rennaration(green button) in the action bar(at the top)
 
 	6:After choosing the language and author, The web-page loads with the re-narrated content
+
+	7:If audio is present, a audio button appears next to the rennaratibon button. Click on it to choose and listen to the audio
